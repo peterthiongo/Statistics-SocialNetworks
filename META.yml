@@ -1,7 +1,7 @@
 --- #YAML:1.0
 name:                Statistics-SocialNetworks
-version:             0.02
-abstract:            ~
+version:             0.03
+abstract:            Perl extension for calculating network constraint and other network statistics.
 license:             ~
 author:              
     - Erich Morisse <esm@morisse.com>

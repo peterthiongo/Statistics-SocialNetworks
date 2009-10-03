@@ -12,7 +12,7 @@ our @ISA = qw(Exporter);
 # names by default without a very good reason. Use EXPORT_OK instead.
 # Do not simply export all your public functions/methods/constants.
 
-# This allows declaration	use Graph::Statistics ':all';
+# This allows declaration	use Statistics::SocialNetworks ':all';
 # If you do not need this, moving things directly into @EXPORT or @EXPORT_OK
 # will save memory.
 our %EXPORT_TAGS = ( 'all' => [ qw(
@@ -29,7 +29,7 @@ our @EXPORT = qw(
 	
 );
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 
 # Preloaded methods go here.
@@ -150,11 +150,11 @@ __END__
 
 =head1 NAME
 
-Graph::Statistics - Perl extension for calculating network constraint and other network statistics.
+Statistics::SocialNetworks - Perl extension for calculating network constraint and other network statistics.
 
 =head1 SYNOPSIS
 
-  use Graph::Statistics ':all';
+  use Statistics::SocialNetworks ':all';
  
   # create hash representing graph
   my %g;
